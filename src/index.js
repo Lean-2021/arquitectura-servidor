@@ -19,7 +19,7 @@ dotenv.config();
 const app = express();
 const httpServer = http.createServer(app);
 const io = new Server(httpServer); //implementación de websocket
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8081;
 
 connectDB();
 const advanceOptions = { useNewUrlParser: true, useUnifiedTopology: true };
