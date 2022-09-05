@@ -1,0 +1,57 @@
+<%-include('./partials/header')%>  <!--incluir header-->
+    <body>   
+    <%-include('./partials/navLogin')%>  <!--incluir navLogin-->
+    <div class="container mt-3">
+        <button class="btn btn-secondary"id="btnInfo">
+            <div class="btn-info-home mt-1">
+                <span class="material-symbols-outlined">
+                    home
+                </span>
+                <span class="btn-text">Inicio</span>
+                
+            </div>
+        </button>
+    </div>
+    <section class="container text-center mt-2">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <h2 class="mt-4 title-info">Información de Perfil</h2>
+                <ul class="list-group mt-5">
+                    <li class="list-group-item">
+                        <img src="<%=thumbnail%>" alt="imagen perfil"class="image-perfil">
+                    </li>
+                    <li class="list-group-item">
+                        <h5 class="mt-1">Nombre</h5>
+                        <p class="pt-2"><%=nombre%></p> 
+                    </li>
+                    <li class="list-group-item">
+                        <h5 class="mt-1">Email</h5>
+                        <p class="pt-2"><%=email%></p> 
+                    </li>
+                    <li class="list-group-item">
+                        <h5 class="mt-1">Dirección</h5>
+                        <p class="pt-2"><%=adress%></p> 
+                    </li>
+                    <li class="list-group-item">
+                        <h5 class="mt-1">Edad</h5>
+                        <p class="pt-2"><%=age%></p> 
+                    </li>
+                    <li class="list-group-item">
+                        <h5 class="mt-1">Teléfono</h5>
+                        <p class="pt-2"><%=phone%></p> 
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script>
+        const btn =document.querySelector('#btnLogout');
+        btn.addEventListener('click',()=>{
+            location.href='/logout'
+        })
+        document.querySelector('#btnInfo').addEventListener('click',()=>{
+            location.href='/'
+        })
+    </script>
+</body>
+</html>

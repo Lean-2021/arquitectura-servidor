@@ -1,0 +1,31 @@
+<%-include('./partials/header')%>
+<body>
+    <section class="container mt-5">   <!--Formulario de Resgistro-->
+        <div class="row">
+            <div class="col-md-4 offset-md-4 text-center">
+                <h2>Usuario Nuevo</h2>
+                <form action="/register" enctype="multipart/form-data"method="post"class="form-login-container mt-5">
+                    <label for="nombre"class="form-label">Nombre</label>
+                    <input type="text"placeholder="Ingrese el nombre"class="form-control text-center"id="nombre"name="nombre"required>
+                    <label for="email" class="form-label mt-3">Email</label>
+                    <input type="text"placeholder="Ingrese el email" id="email"name="email"required class="form-control text-center"autocomplete="off">
+                    <label for="password"class="form-label mt-3">Contraseña</label>
+                    <input type="password"class="form-control text-center"placeholder="Ingrese la contraseña"id="password"name="password"required>
+                    <label for="adress"class="form-label mt-3">Dirección</label>
+                    <input type="text"placeholder="Ingrese la direccion"id="adress"name="adress"class="form-control text-center"required>
+                    <label for="age"class="form-label mt-3">Edad</label>
+                    <input type="number"placeholder="Ingrese la edad"id="age"name="age"class="form-control text-center"required>
+                    <label for="phone"class="form-label mt-3">Telefono (código de area y Pais)</label>
+                    <input type="number"placeholder="54911223334455"id="phone"name="phone"class="form-control text-center"required>
+                    <label for="thumbnail"class="form-label mt-3">Imagen de perfil</label>
+                    <input type="file"name="thumbnail"class="form-control text-center"accept="image/*">    
+                    <section class="mt-4">
+                        <button class="btn btn-primary btn-login">Crear Usuario</button>
+                        <button type="button" class="mt-3 btn btn-warning btn-register"onClick="location.href='/login'">Login</button>
+                    </section>
+                </form>
+            </div>  
+        </div>
+    </section>
+</body>
+</html>

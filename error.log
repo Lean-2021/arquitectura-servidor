@@ -1,0 +1,67 @@
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","message":"Error en el envio del mail Invalid login: 535 Authentication failed","response":"535 Authentication failed","responseCode":535,"stack":"Error: Invalid login: 535 Authentication failed\n    at SMTPConnection._formatError (/home/leo/Downloads/tercer-entrega-master/node_modules/nodemailer/lib/smtp-connection/index.js:787:19)\n    at SMTPConnection._actionAUTHComplete (/home/leo/Downloads/tercer-entrega-master/node_modules/nodemailer/lib/smtp-connection/index.js:1539:34)\n    at SMTPConnection.<anonymous> (/home/leo/Downloads/tercer-entrega-master/node_modules/nodemailer/lib/smtp-connection/index.js:543:26)\n    at SMTPConnection._processResponse (/home/leo/Downloads/tercer-entrega-master/node_modules/nodemailer/lib/smtp-connection/index.js:950:20)\n    at SMTPConnection._onData (/home/leo/Downloads/tercer-entrega-master/node_modules/nodemailer/lib/smtp-connection/index.js:752:14)\n    at SMTPConnection._onSocketData (/home/leo/Downloads/tercer-entrega-master/node_modules/nodemailer/lib/smtp-connection/index.js:191:44)\n    at TLSSocket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at Readable.push (node:internal/streams/readable:234:10)"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535 Authentication failed","responseCode":535}

@@ -1,0 +1,22 @@
+    <%-include('./partials/header')%>
+    <body>
+        <%-include('./partials/navLogin')%>
+        <section class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <% if (product.length ===0) { %>
+                        <h3 class="mt-5">No Hay Productos en el carrito</h3>
+                        <button class="btn btn-primary mt-5"id="btnBack">Volver</button>
+                    <%} %>
+                  
+                </div>
+            </div>
+        </section>
+      <script>
+        btnBack.addEventListener("click", () => {
+        //ir  a ruta principal
+        location.href = "/";
+        });
+      </script>
+    </body>
+</html>

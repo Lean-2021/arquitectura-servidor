@@ -1,0 +1,28 @@
+<%-include('./partials/header.ejs')%>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>Hasta luego <span class="text-logout"><%=nombre%></span></h1>
+            </div>
+        </div>
+    </div>
+    <script>   // redireccionar a pagina de login luego de mostrar mensaje de Hasta Luego
+        const goToHome=()=>{
+            setTimeout(()=>{
+                fetch(`https://proyectoback2022.herokuapp.com/logout`,{
+                    method:'post'
+                })
+                .then(()=>{
+                    location.href='/'
+                })
+                .catch((err)=>{
+                    console.log(err)
+                })
+            },2000);
+        }
+        goToHome();
+    </script>
+</body>
+</html>
+

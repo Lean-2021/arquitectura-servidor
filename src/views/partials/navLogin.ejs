@@ -1,0 +1,20 @@
+<div class="container-fluid container-bienvenido">
+    <div class="row section-bienvenido">
+        <div class="col-m-12 d-flex justify-content-between">
+            <h1>Bienvenido <span class="ms-1 name-bienvenido"><%=nombre%></span></h1> 
+            <span>
+                <span>
+                    <img src="../../../public/assets/image/carro.png"width="40"alt="imagen carrito"class="position-relative"id="linkCart">
+                    <span class="position-absolute top-5 mt-1 start-10 translate-middle badge rounded-pill bg-danger">
+                        <%=product.length%>
+                    </span>
+                </span>
+                <span>
+                    <img src="<%=thumbnail%>"alt="logo perfil"class="logo-perfil ms-4">
+                </span>
+                <span class="email-bienvenido"><%=email%></span>
+                <button class="btn btn-danger mt-2 btn-salir"id="btnLogout">Salir</button>
+            </span>
+        </div>
+    </div>
+</div>

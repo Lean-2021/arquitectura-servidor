@@ -1,0 +1,29 @@
+<%- include('./partials/header')%>
+    <!--incluir encabezado-->
+
+    <body>
+        <%-include('./partials/navLogin')%>  <!--incluir navLogin-->
+        <div class="container mt-3 d-flex align-items-center">
+            <div class="btn-info-container">
+                <button class="btn btn-secondary"id="btnGotoInfo">
+                    <div class="btn-info-home mt-1">
+                        <span class="material-symbols-outlined">
+                            feed
+                        </span>
+                        <span class="btn-text">Perfil</span>      
+                    </div>
+                </button>
+            </div>
+         </div>
+        <div class="container text-center">
+            <%-include('./partials/products.ejs') %> <!--Mostrar la lista de productos con products.ejs-->
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <%- include('./partials/formProduct')%><!--incluir formulario ingreso de productos -->
+                </div>
+            </div>
+        </div>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="../../public/js/main.js"></script>
+    </body>
+    </html>
